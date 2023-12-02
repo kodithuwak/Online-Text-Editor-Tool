@@ -29,7 +29,14 @@
 </head>
 <body>
     <div class="ribbon">
-    
+
+        <div class="color-palette" id="colorPalette">
+            <input type="color" id="colorPicker" onchange="applyColor()">
+        </div>
+
+        <button onclick="toggleColorPalette()">
+            <b id="colorBtn">A</b>
+        </button>
 
         <img src="Resources/italic-xxl.png" alt="italic"onclick="formatText('italic')"id="italic-icon"> 
 
