@@ -29,7 +29,7 @@
 </head>
 <body>
     <div class="ribbon">
-    
+
         <div class="color-palette" id="colorPalette">
             <input type="color" id="colorPicker" onchange="applyColor()">
         </div>
@@ -37,6 +37,11 @@
         <button onclick="toggleColorPalette()">
             <b id="colorBtn">A</b>
         </button>
+
+        <img src="Resources/italic-xxl.png" alt="italic"onclick="formatText('italic')"id="italic-icon"> 
+
+        <img src="Resources/format_underline_white_192x192.png" alt="Underline"onclick="formatText('underline')"id="underline-icon">
+        <img src="Resources/bold-xxl.png" alt="Bold"onclick="formatText('bold')"id="bold icon">
     </div>
 </body>
 </html>
